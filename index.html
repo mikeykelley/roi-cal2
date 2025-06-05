@@ -1,0 +1,13 @@
+<div class="calculator">
+  <h2>Opportunity Calculator</h2>
+  <label for="orders">Monthly Orders: <span id="orderValue">250</span></label>
+  <input type="range" id="orders" min="250" max="25000" value="250" step="250" oninput="updateOrderValue()" />
+  
+  <label for="aov">Average Order Value (£):</label>
+  <input type="number" id="aov" placeholder="Enter AOV" value="50" oninput="calculateOpportunity()" />
+  
+  <div class="result">
+    <p>Estimated Monthly Opportunity:</p>
+    <h3>£<span id="result">125</span></h3>
+  </div>
+</div>
