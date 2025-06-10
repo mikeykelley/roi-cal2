@@ -11,7 +11,7 @@ body {
   border: 2px solid #FFBEAF;
   border-radius: 16px;
   padding: 24px;
-  max-width: 400px;
+  max-width: 420px;
   width: 100%;
   background-color: #fff;
   box-shadow: 0 4px 12px rgba(5, 36, 36, 0.1);
@@ -42,11 +42,29 @@ input[type="number"] {
   background-color: #FFBEAF22;
   padding: 16px;
   border-radius: 12px;
-  text-align: center;
+  text-align: left;
 }
 
 .result h3 {
-  margin: 0;
+  margin-top: 12px;
   color: #283CFF;
   font-size: 24px;
+}
+
+.assumptions {
+  margin-top: 16px;
+  font-size: 14px;
+  color: #333;
+}
+
+.assumptions summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: #283CFF;
+}
+
+.assumptions ul {
+  margin: 8px 0 0 16px;
+  padding: 0;
+  list-style: disc;
 }
